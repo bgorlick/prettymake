@@ -1,1 +1,61 @@
 .aider*
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/out/
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore compiled object files
+*.o
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Ignore editor and system files
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore coverage and test result files
+*.gcda
+*.gcno
+*.gcov
+*.lcov
+*.coverage
+*.testresult
+
+# Ignore other common files
+*.a
+*.lib
+*.d
+*.dSYM/
+*.ipch
+*.pdb
+*.obj
+*.pch
+*.idb
+*.ilk
+*.tlog
+*.lastbuildstate
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.vscode/
